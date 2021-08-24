@@ -1,0 +1,56 @@
+.outer {
+    background-color: lightgray;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+
+}
+
+.tag {
+    background-color: red;
+    height: 95%;
+    width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+    
+}
+
+h1, h2 {
+    margin: 0;
+    line-height: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    /* background-color: yellowgreen; */
+    color: white;
+}
+h2 {
+    font-size: 55px;
+    /* background-color: lightblue; */
+    color: white;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-color: black;
+
+
+}
+
+
+
+
+
+
+
