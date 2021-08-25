@@ -5,23 +5,31 @@ const nameInput = document.getElementById('name-input');
 
 // user clicks on the button
 updateButton.addEventListener('click', () => {
-    console.log('button was clicked');
+    nameElement.textContent = nameInput.value;
 });
 
 
-
-// get the text in the input
-console.log(nameInput.value);
-
-// update the name element with the text
-nameElement.textContent = name;
+const updateBgButton = document.getElementById('updateBackground');
 
 
 
-// nameInput.addEventListener('input',() => {
-//     // get the text in the input
-// console.log(nameInput.value);
+updateBgButton.addEventListener('click', () => {
+    const bgColor = document.getElementById('tag');
+    const colorSelect = document.getElementById('colors').value;
 
-// // update the name element with the text
-// nameElement.textContent = name;
-// }
+    bgColor.style.backgroundColor = colorSelect;
+    console.log('button clicked');
+
+});
+
+const updatePronoun = document.getElementById('updatePronoun');
+
+updatePronoun.addEventListener('click', () => {
+    const pronoun = document.getElementById('pronoun');
+
+
+    nameElement.textContent += pronoun.value;
+    console.log(updatePronoun);
+
+});
+
