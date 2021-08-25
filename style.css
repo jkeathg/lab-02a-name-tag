@@ -9,6 +9,11 @@
 
 }
 
+.inputs{
+    width: 300px;
+    margin: auto;
+}
+
 .tag {
     background-color: red;
     height: 95%;
